@@ -1,0 +1,137 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Doctor's Appointment</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+  <link rel="stylesheet" href="nav.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  
+</head>
+<body>
+
+    <nav id="navbar0">
+        <div class="logo">
+            <img src="/logo.jpg" alt="">
+        </div>
+        <div id="loc-icon"><i class="fa-solid fa-location-dot"></i></div>
+
+        <div id="select-loc"> <h6>Select location</h6>
+                             <h4 id="SA">Select Address &nbsp;<i class="fa-solid fa-angle-down"></i></h4>
+        </div>
+
+        <div id="search">  <input  type="text"  placeholder="   Search Doctors, Specialists, Condition etc." >
+        </div>
+
+
+           
+        <div id="log-box">
+          <a href="#">Log in <i class="fa-regular fa-circle-user"></i></a>
+        </div>
+    </nav>
+
+
+  <!-- <div 
+  data-aos="fade-down"
+  data-aos-easing="linear"
+  data-aos-duration="500"
+  > -->
+  <div>
+  
+  <nav class="navbar"> 
+
+        <!-- <div data-aos="fade-right"
+        data-aos-offset="650"
+        data-aos-easing="ease-in-sine"> -->
+
+        <div>
+       
+
+
+        <ul class="options">
+          <li><a href="#">Find Doctors</a></li>
+          <li><a href="#">Buy Medicines</a></li>
+          <li><a href="#">Lab Tests</a></li>
+          <li><a href="#">Circle Membership</a></li>
+          <li><a href="#">Health Records</a></li>
+          <li><a href="#">Buy Insurance</a></li>
+          <li><a href="#">Diabetes Reversal</a></li>
+        
+        </ul>
+        
+    </nav>
+  </div> 
+
+<section id="swiper-pic">
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"> <img src="/pexels-cedric-fauntleroy-4269204.jpg" alt=""><div id="text" ><h1>Consult top doctors online for any health concern</h1></div></div>
+      <div class="swiper-slide"><img src="/pexels-tima-miroshnichenko-8376277.jpg" alt=""> <div id="text1"><h1>TAKE CARE OF YOUR HEALTH</h1></div></div>
+      <div class="swiper-slide"><img src="/pexels-iamluisao-12917374.jpg" alt=""><div id="text2"><h1>We're here for you, when you need us. Access quality healthcare with ease</h1></div></div>
+      <div class="swiper-slide"><img src="/pexels-imadclicks-14558557.jpg" alt=""><div id="text3"> <h1>Your health matters. Find a doctor who cares, schedule an appointment</h1></div></div>
+      <div class="swiper-slide"><img src="/pexels-pavel-danilyuk-7653316.jpg" alt=""><div id="text4"><h1>Partnering with you for optimal health. Book your visit today</h1></div></div>
+      <div class="swiper-slide"><img src="/pexels-pavel-danilyuk-7653116.jpg" alt=""><div id="text5"><h1>Your well-being is our priority. Let's discuss your health concerns</h1></div></div>
+      
+
+
+</section>
+
+
+<section id="home">
+  <div id="home-text">
+    <h1>Quality Health close  <br> to home Caring you <br> every step</h1>
+  </div>
+</section>
+</body> 
+
+
+
+
+
+
+
+
+
+
+  <script src="nav.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 1,
+      spaceBetween: 30,
+      autoplay:{
+        delay:3000
+      },
+      loop: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+  
+ 
+</body>
+</html> 
+
